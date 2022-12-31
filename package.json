@@ -1,0 +1,24 @@
+{
+  "name": "vega_algo",
+  "version": "1.0.0",
+  "description": "Solutions for Vega challenges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/professor-and-students.js",
+    "start:flowers": "nodemon ./src/flowers.ts",
+    "start:professors-and-students": "nodemon ./src/professor-and-students.ts",
+    "start:ponds": "nodemon ./src/ponds.ts",
+    "build": "tsc -p .",
+    "dev": "nodemon ./src/professor-and-students.ts"
+  },
+  "author": "Nemanja Miletić",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.1.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
